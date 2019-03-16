@@ -30,6 +30,7 @@ namespace AgentFramework.Core.Extensions
             builder.TryAddSingleton<IProofService, DefaultProofService>();
             builder.TryAddSingleton<IProvisioningService, DefaultProvisioningService>();
             builder.TryAddSingleton<IMessageService, DefaultMessageService>();
+            builder.TryAddSingleton<IAgentContextProvider, DefaultAgentContextProvider>();
             builder.TryAddSingleton<HttpMessageHandler, HttpClientHandler>();
             builder.TryAddSingleton<ISchemaService, DefaultSchemaService>();
             builder.TryAddSingleton<ITailsService, DefaultTailsService>();
