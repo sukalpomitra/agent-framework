@@ -3,12 +3,12 @@
 namespace AgentFramework.Core.Models.Records
 {
     /// <summary>
-    /// Challenge type.
+    /// Challenge types
     /// </summary>
     public enum ChallengeType
     {
         /// <summary>
-        /// The proof.
+        /// The proof
         /// </summary>
         Proof
     }
